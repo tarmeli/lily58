@@ -11,6 +11,10 @@
 
 #define GAMING 3
 
+&led_strip {
+    chain-length = <68>;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
