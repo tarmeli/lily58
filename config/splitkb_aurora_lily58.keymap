@@ -67,7 +67,7 @@
 &trans  &trans  &trans  &trans  &trans  &kp B                   &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &kp G                   &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &kp D   &kp V   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &tog 4
             >;
         };
     };
