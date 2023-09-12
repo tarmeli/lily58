@@ -47,7 +47,7 @@
 &trans  &trans  &trans  &trans  &trans            &trans                                   &trans   &kp EQUAL     &trans         &trans                &trans            &trans
 &trans  &kp F1  &kp F2  &kp F3  &kp F4            &kp F5                                   &kp F6   &kp SLASH     &kp BACKSLASH  &kp NON_US_BACKSLASH  &kp LS(NUMBER_1)  &trans
 &trans  &kp F7  &kp F8  &kp F9  &kp F10           &kp F11            &trans     &trans     &kp F12  &kp KP_MINUS  &kp KP_PLUS    &kp KP_EQUAL          &kp LS(MINUS)     &trans
-                        &trans  &trans            &trans             &kp SPACE  &kp ENTER  &trans   &trans        &tog GAMING
+                        &tog 4  &trans            &trans             &kp SPACE  &kp ENTER  &trans   &trans        &tog GAMING
             >;
         };
 
@@ -58,6 +58,16 @@
 &kp LEFT_CONTROL  &kp A   &kp S   &kp D         &kp F             &kp G                              &kp H      &kp J     &kp K        &kp L    &kp SEMI  &kp SQT
 &kp LEFT_SHIFT    &kp Z   &kp X   &kp C         &kp V             &kp B         &kp UP     &kp RBKT  &kp N      &kp M     &kp COMMA    &kp DOT  &kp FSLH  &kp ESCAPE
                                   &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp SPACE  &kp RET   &mo RAISE  &kp LALT  &tog GAMING
+            >;
+        };
+
+        COLEMAK_DH {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp B                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp G                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &kp D   &kp V   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
