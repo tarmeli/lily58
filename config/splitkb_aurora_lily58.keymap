@@ -34,10 +34,10 @@
 
         lower_layer {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0        &bt BT_SEL 1      &bt BT_SEL 2        &bt BT_SEL 3   &bt BT_SEL 4                        &rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF  &trans     &trans
-&kp F1      &kp F2              &kp F3            &kp F4              &kp F5         &kp F6                              &kp F7           &kp F8           &kp F9           &kp F10          &kp F11    &kp F12
-&trans      &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(RIGHT)  &trans                              &trans           &kp LEFT         &kp UP           &kp DOWN         &kp RIGHT  &trans
-&trans      &trans              &trans            &trans              &trans         &trans        &trans     &trans     &trans           &trans           &trans           &trans           &trans     &trans
+&bt BT_CLR  &bt BT_SEL 0        &bt BT_SEL 1      &bt BT_SEL 2        &bt BT_SEL 3   &bt BT_SEL 4                        &rgb_ug RGB_TOG  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD
+&kp F1      &kp F2              &kp F3            &kp F4              &kp F5         &kp F6                              &kp F7           &kp F8           &kp F9           &kp F10          &kp F11          &kp F12
+&trans      &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(RIGHT)  &trans                              &trans           &kp LEFT         &kp UP           &kp DOWN         &kp RIGHT        &trans
+&trans      &trans              &trans            &trans              &trans         &trans        &trans     &trans     &trans           &trans           &trans           &trans           &trans           &trans
                                                   &trans              &trans         &trans        &kp SPACE  &kp ENTER  &trans           &trans           &trans
             >;
         };
