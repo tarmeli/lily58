@@ -24,11 +24,11 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                          &kp N6     &kp N7        &kp N8     &kp N9   &kp N0    &kp BACKSPACE
-&kp TAB    &kp Q   &kp W   &kp F     &kp P     &kp G                           &kp J      &kp L         &kp U      &kp Y    &kp SEMI  &kp RIGHT_SHIFT
-&kp LSHFT  &kp A   &kp R   &kp S     &kp T     &kp D                           &kp M      &kp N         &kp E      &kp I    &kp O     &kp SQT
-&kp LCTRL  &kp Z   &kp X   &kp C     &kp V     &kp B      &kp LBKT  &kp RBKT   &kp K      &kp H         &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_CONTROL
-                           &kp LALT  &kp LGUI  &mo LOWER  &kp RET   &kp SPACE  &mo RAISE  &kp LEFT_ALT  &kp RGUI
+&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                       &kp N6  &kp N7        &kp N8     &kp N9   &kp N0    &kp BACKSPACE
+&kp TAB    &kp Q   &kp W   &kp F     &kp P     &kp B                        &kp J   &kp L         &kp U      &kp Y    &kp SEMI  &kp RIGHT_SHIFT
+&kp LSHFT  &kp A   &kp R   &kp S     &kp T     &kp G                        &kp M   &kp N         &kp E      &kp I    &kp O     &kp SQT
+&kp LCTRL  &kp Z   &kp X   &kp C     &kp D     &kp V   &kp LBKT  &kp RBKT   &kp K   &kp H         &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_CONTROL
+                           &kp LALT  &kp LGUI  &mo 1   &kp RET   &kp SPACE  &mo 2   &kp LEFT_ALT  &kp RGUI
             >;
         };
 
@@ -48,27 +48,17 @@
 &trans  &trans  &trans  &trans  &trans            &trans                                   &trans   &kp EQUAL     &trans         &trans                &trans            &trans
 &trans  &kp F1  &kp F2  &kp F3  &kp F4            &kp F5                                   &kp F6   &kp SLASH     &kp BACKSLASH  &kp NON_US_BACKSLASH  &kp LS(NUMBER_1)  &trans
 &trans  &kp F7  &kp F8  &kp F9  &kp F10           &kp F11            &trans     &trans     &kp F12  &kp KP_MINUS  &kp KP_PLUS    &kp KP_EQUAL          &kp LS(MINUS)     &trans
-                        &tog 4  &trans            &trans             &kp SPACE  &kp ENTER  &trans   &trans        &tog GAMING
+                        &tog 0  &trans            &trans             &kp SPACE  &kp ENTER  &trans   &trans        &tog 3
             >;
         };
 
         gaming_layer {
             bindings = <
-&kp GRAVE         &kp N1  &kp N2  &kp N3        &kp N4            &kp N5                             &kp N6     &kp N7    &kp N8       &kp N9   &kp N0    &kp BACKSPACE
-&kp TAB           &kp Q   &kp W   &kp E         &kp R             &kp T                              &kp Y      &kp U     &kp I        &kp O    &kp P     &kp MINUS
-&kp LEFT_CONTROL  &kp A   &kp S   &kp D         &kp F             &kp G                              &kp H      &kp J     &kp K        &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT    &kp Z   &kp X   &kp C         &kp V             &kp B         &kp UP     &kp RBKT  &kp N      &kp M     &kp COMMA    &kp DOT  &kp FSLH  &kp ESCAPE
-                                  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp SPACE  &kp RET   &mo RAISE  &kp LALT  &tog GAMING
-            >;
-        };
-
-        COLEMAK_DH {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp B                   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp G                   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &kp D   &kp V   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &tog 4
+&kp GRAVE         &kp N1  &kp N2  &kp N3        &kp N4            &kp N5                             &kp N6  &kp N7    &kp N8     &kp N9   &kp N0    &kp BACKSPACE
+&kp TAB           &kp Q   &kp W   &kp E         &kp R             &kp T                              &kp Y   &kp U     &kp I      &kp O    &kp P     &kp MINUS
+&kp LEFT_CONTROL  &kp A   &kp S   &kp D         &kp F             &kp G                              &kp H   &kp J     &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT    &kp Z   &kp X   &kp C         &kp V             &kp B         &kp UP     &kp RBKT  &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp ESCAPE
+                                  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp SPACE  &kp RET   &mo 2   &kp LALT  &tog 3
             >;
         };
     };
