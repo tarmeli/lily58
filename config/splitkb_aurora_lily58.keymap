@@ -56,8 +56,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans                      &trans     &trans     &trans    &trans     &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans                      &trans     &trans     &trans    &trans     &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans                      &kp GRAVE  &kp EQUAL  &kp APOS  &kp MINUS  &kp BSLH  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans     &trans     &trans    &trans     &trans    &trans
-                        &trans  &trans  &kp DELETE  &trans  &trans  &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans     &trans     &trans    &trans     &trans    &trans
+                        &trans  &trans  &trans  &kp DELETE  &trans  &trans     &trans     &trans
             >;
         };
 
