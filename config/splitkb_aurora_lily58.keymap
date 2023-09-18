@@ -33,11 +33,11 @@
 
         Base {
             bindings = <
-&kp GRAVE  &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                                    &kp N6           &kp N7          &kp N8             &kp N9   &kp N0    &kp EQUAL
-&kp TAB    &kp Q   &kp W   &kp F     &kp P     &kp B                                     &kp J            &kp L           &kp U              &kp Y    &kp SEMI  &kp SINGLE_QUOTE
-&kp LSHFT  &kp A   &kp R   &kp S     &kp T     &kp G                                     &kp M            &kp N           &kp E              &kp I    &kp O     &kp MINUS
-&kp LCTRL  &kp Z   &kp X   &kp C     &kp D     &kp V          &kp LBKT      &kp RBKT     &kp K            &kp H           &kp COMMA          &kp DOT  &kp FSLH  &kp ESCAPE
-                           &kp LALT  &kp LGUI  &kp BACKSPACE  &lt 1 RETURN  &lt 2 SPACE  &kp RIGHT_SHIFT  &kp RIGHT_META  &kp RIGHT_CONTROL
+&kp GRAVE  &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                                 &kp N6           &kp N7          &kp N8             &kp N9   &kp N0    &kp EQUAL
+&kp TAB    &kp Q   &kp W   &kp F     &kp P     &kp B                                  &kp J            &kp L           &kp U              &kp Y    &kp SEMI  &kp SINGLE_QUOTE
+&kp LSHFT  &kp A   &kp R   &kp S     &kp T     &kp G                                  &kp M            &kp N           &kp E              &kp I    &kp O     &kp MINUS
+&kp LCTRL  &kp Z   &kp X   &kp C     &kp D     &kp V    &kp LBKT         &kp RBKT     &kp K            &kp H           &kp COMMA          &kp DOT  &kp FSLH  &kp ESCAPE
+                           &kp LALT  &kp LGUI  &kp RET  &lt 1 BACKSPACE  &lt 2 SPACE  &kp RIGHT_SHIFT  &kp RIGHT_META  &kp RIGHT_CONTROL
             >;
         };
 
