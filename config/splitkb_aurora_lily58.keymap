@@ -53,11 +53,11 @@
 
         Symbols {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                      &trans     &trans     &trans    &trans     &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans                      &trans     &trans     &trans    &trans     &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans                      &kp GRAVE  &kp EQUAL  &kp APOS  &kp MINUS  &kp BSLH  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans     &trans     &trans    &trans     &trans    &trans
-                        &trans  &trans  &trans  &kp DELETE  &trans  &trans     &trans     &trans
+&trans  &trans        &trans        &trans        &trans        &trans                            &trans        &trans        &trans        &trans        &trans        &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                      &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+&trans  &trans        &trans        &trans        &trans        &trans                            &kp GRAVE     &kp EQUAL     &kp APOS      &kp MINUS     &kp BSLH      &trans
+&trans  &trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans        &trans        &trans        &trans        &trans        &trans
+                                    &trans        &trans        &trans        &kp DELETE  &trans  &trans        &trans        &trans
             >;
         };
 
