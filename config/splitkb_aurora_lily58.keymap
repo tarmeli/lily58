@@ -30,6 +30,16 @@
             bindings = <&mo 4>;
             key-positions = <53 54>;
         };
+
+        right_command {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <56 55>;
+        };
+
+        return {
+            bindings = <&kp RETURN>;
+            key-positions = <54 55>;
+        };
     };
 
     keymap {
