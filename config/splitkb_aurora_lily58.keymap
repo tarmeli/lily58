@@ -33,12 +33,12 @@
 
         right_command {
             bindings = <&kp RIGHT_GUI>;
-            key-positions = <56 55>;
+            key-positions = <56 45>;
         };
 
         return {
             bindings = <&kp RETURN>;
-            key-positions = <54 55>;
+            key-positions = <55 44>;
         };
     };
 
@@ -81,7 +81,7 @@
 &kp TAB           &kp Q   &kp W   &kp E         &kp R             &kp T                              &kp Y   &kp U     &kp I      &kp O    &kp P     &kp MINUS
 &kp LEFT_CONTROL  &kp A   &kp S   &kp D         &kp F             &kp G                              &kp H   &kp J     &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LEFT_SHIFT    &kp Z   &kp X   &kp C         &kp V             &kp B         &kp UP     &kp RBKT  &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp ESCAPE
-                                  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp SPACE  &kp RET   &mo 2   &kp LALT  &tog 3
+                                  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp SPACE  &trans    &mo 2   &kp LALT  &tog 3
             >;
         };
 
