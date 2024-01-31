@@ -37,9 +37,9 @@
             key-positions = <55 44>;
         };
 
-        alt_and_enter {
-            bindings = <&kp RA(ENTER)>;
-            key-positions = <52 43 54>;
+        option_and_enter {
+            bindings = <&kp LA(ENTER)>;
+            key-positions = <52 41>;
         };
     };
 
