@@ -41,6 +41,11 @@
             bindings = <&kp LA(ENTER)>;
             key-positions = <52 41>;
         };
+
+        control_and_enter {
+            bindings = <&kp LC(ENTER)>;
+            key-positions = <51 40>;
+        };
     };
 
     keymap {
