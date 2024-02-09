@@ -73,11 +73,11 @@
 
         Symbols {
             bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans                                &trans            &trans            &trans            &trans            &trans            &trans
-&trans  &kp LS(Q)  &kp LS(W)  &kp LS(F)  &kp LS(P)  &kp LS(B)                             &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &trans
-&trans  &kp RS(A)  &kp RS(R)  &kp RS(S)  &kp RS(T)  &kp RS(G)                             &kp GRAVE         &kp EQUAL         &kp APOS          &kp MINUS         &kp BSLH          &trans
-&trans  &kp RS(Z)  &kp RS(X)  &kp RS(C)  &kp RS(D)  &kp RS(V)  &trans             &trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)        &trans
-                              &trans     &trans     &trans     &kp RG(BACKSPACE)  &trans  &trans            &trans            &trans
+&trans  &trans     &trans     &trans                &trans             &trans                                       &trans            &trans            &trans            &trans            &trans            &trans
+&trans  &kp LS(Q)  &kp LS(W)  &kp LS(F)             &kp LS(P)          &kp LS(B)                                    &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &trans
+&trans  &kp RS(A)  &kp RS(R)  &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp RS(NUMBER_9)                             &kp GRAVE         &kp EQUAL         &kp APOS          &kp MINUS         &kp BSLH          &trans
+&trans  &kp RS(Z)  &kp RS(X)  &kp RS(LEFT_BRACKET)  &kp RS(RBKT)       &kp RS(N0)        &trans             &trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)        &trans
+                              &trans                &trans             &trans            &kp RG(BACKSPACE)  &trans  &trans            &trans            &trans
             >;
         };
 
