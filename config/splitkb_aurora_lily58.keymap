@@ -88,11 +88,11 @@
 
         Base {
             bindings = <
-&kp GRAVE  &kp N1  &kp N2  &kp N3    &kp N4                                &kp N5                                           &kp N6     &kp N7                                 &kp N8             &kp N9   &kp N0    &kp EQUAL
-&kp TAB    &kp Q   &kp W   &kp F     &kp P                                 &kp B                                            &kp J      &kp L                                  &kp U              &kp Y    &kp SEMI  &kp SINGLE_QUOTE
-&kp LSHFT  &kp A   &kp R   &kp S     &hold_tap_tap_preferred LEFT_SHIFT T  &kp G                                            &kp M      &hold_tap_tap_preferred RIGHT_SHIFT N  &kp E              &kp I    &kp O     &kp MINUS
-&kp LCTRL  &kp Z   &kp X   &kp C     &kp D                                 &kp V                &kp LBKT         &kp RBKT   &kp K      &kp H                                  &kp COMMA          &kp DOT  &kp FSLH  &kp ESCAPE
-                           &kp LALT  &kp LEFT_META                         &shift_or_caps_word  &lt 1 BACKSPACE  &kp SPACE  &lt 2 TAB  &kp RIGHT_ALT                          &kp RIGHT_CONTROL
+&kp GRAVE  &kp N1  &kp N2  &kp N3                                  &kp N4                                &kp N5                                           &kp N6     &kp N7                                 &kp N8                                   &kp N9   &kp N0    &kp EQUAL
+&kp TAB    &kp Q   &kp W   &kp F                                   &kp P                                 &kp B                                            &kp J      &kp L                                  &kp U                                    &kp Y    &kp SEMI  &kp SINGLE_QUOTE
+&kp LSHFT  &kp A   &kp R   &hold_tap_tap_preferred LEFT_CONTROL S  &hold_tap_tap_preferred LEFT_SHIFT T  &kp G                                            &kp M      &hold_tap_tap_preferred RIGHT_SHIFT N  &hold_tap_tap_preferred RIGHT_CONTROL E  &kp I    &kp O     &kp MINUS
+&kp LCTRL  &kp Z   &kp X   &kp C                                   &kp D                                 &kp V                &kp LBKT         &kp RBKT   &kp K      &kp H                                  &kp COMMA                                &kp DOT  &kp FSLH  &kp ESCAPE
+                           &kp LALT                                &kp LEFT_META                         &shift_or_caps_word  &lt 1 BACKSPACE  &kp SPACE  &lt 2 TAB  &kp RIGHT_ALT                          &kp RIGHT_CONTROL
             >;
         };
 
