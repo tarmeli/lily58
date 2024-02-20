@@ -63,14 +63,14 @@
             bindings = <&new_macro>, <&kp BACKSPACE>;
         };
 
-        hold_tap: hold_tap {
+        hold_tap_tap_preferred: hold_tap_tap_preferred {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOLD_TAP";
+            label = "HOLD_TAP_TAP_PREFERRED";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            flavor = "tap-unless-interrupted";
+            flavor = "tap-preferred";
         };
     };
 
@@ -88,11 +88,11 @@
 
         Base {
             bindings = <
-&kp GRAVE  &kp N1  &kp N2  &kp N3    &kp N4                  &kp N5                                                        &kp N6     &kp N7         &kp N8             &kp N9   &kp N0    &kp EQUAL
-&kp TAB    &kp Q   &kp W   &kp F     &kp P                   &kp B                                                         &kp J      &kp L          &kp U              &kp Y    &kp SEMI  &kp SINGLE_QUOTE
-&kp LSHFT  &kp A   &kp R   &kp S     &hold_tap LEFT_SHIFT T  &kp G                                                         &kp M      &kp N          &kp E              &kp I    &kp O     &kp MINUS
-&kp LCTRL  &kp Z   &kp X   &kp C     &kp D                   &kp V                &kp LBKT                    &kp RBKT     &kp K      &kp H          &kp COMMA          &kp DOT  &kp FSLH  &kp ESCAPE
-                           &kp LALT  &kp LEFT_META           &shift_or_caps_word  &backspace_hold_or_layer_1  &lt 2 SPACE  &lt 2 TAB  &kp RIGHT_ALT  &kp RIGHT_CONTROL
+&kp GRAVE  &kp N1  &kp N2  &kp N3    &kp N4                                &kp N5                                                        &kp N6     &kp N7         &kp N8             &kp N9   &kp N0    &kp EQUAL
+&kp TAB    &kp Q   &kp W   &kp F     &kp P                                 &kp B                                                         &kp J      &kp L          &kp U              &kp Y    &kp SEMI  &kp SINGLE_QUOTE
+&kp LSHFT  &kp A   &kp R   &kp S     &hold_tap_tap_preferred LEFT_SHIFT T  &kp G                                                         &kp M      &kp N          &kp E              &kp I    &kp O     &kp MINUS
+&kp LCTRL  &kp Z   &kp X   &kp C     &kp D                                 &kp V                &kp LBKT                    &kp RBKT     &kp K      &kp H          &kp COMMA          &kp DOT  &kp FSLH  &kp ESCAPE
+                           &kp LALT  &kp LEFT_META                         &shift_or_caps_word  &backspace_hold_or_layer_1  &lt 2 SPACE  &lt 2 TAB  &kp RIGHT_ALT  &kp RIGHT_CONTROL
             >;
         };
 
